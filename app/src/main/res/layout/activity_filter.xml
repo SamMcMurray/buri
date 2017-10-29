@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@color/backgroundFilter"
+    >
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Quick_Bite"
+                    android:drawableTop="@drawable/ic_directions_run_black_24dp"
+                    android:text="Quick Bite"
+                    android:backgroundTint="#ff9f9f"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_golf_course_black_24dp"
+                    android:text="The Big Game"
+                    android:id="@+id/sports"
+                    android:backgroundTint="#ffd05a"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_cake_black_24dp"
+                    android:text="Sweet Tooth"
+                    android:id="@+id/sweet"
+                    android:backgroundTint="#ffffb6"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_local_bar_black_24dp"
+                    android:text="Beers"
+                    android:id="@+id/bar"
+                    android:backgroundTint="#d6ffb0"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_local_pizza_black_24dp"
+                    android:text="Nice and Greasy"
+                    android:id="@+id/greasy"
+                    android:backgroundTint="#bcfff8"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_local_cafe_black_24dp"
+                    android:text="Coffee"
+                    android:id="@+id/coffee"
+                    android:backgroundTint="#abc1ff"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_whatshot_black_24dp"
+                    android:text="Fine Dining"
+                    android:id="@+id/fine_dining"
+                    android:backgroundTint="#d2b3ff"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/ic_all_inclusive_black_24dp"
+                    android:text="$%@#  it"
+                    android:id="@+id/rando"
+                    android:backgroundTint="#ffc5f5"
+                    android:onClick="newFilter"
+                    android:gravity="center|bottom"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
+
+
+

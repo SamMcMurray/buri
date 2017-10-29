@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="button_border">#000000</color>
+    <color name="spin_button">#c31515</color>
+    <color name="filter_button">#109342</color>
+    <color name="settings_button">#1549c3</color>
+
+    <color name="text_color">#FFFFFF</color>
+    <color name="backgroundFilter">#000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="search_bar">#d8e4ff</color>
+    <color name="textBackgroundMap">#906e0d0d</color>
+    <color name="textBackgroundSettings">#900d1c6e</color>
+
+
+</resources>
